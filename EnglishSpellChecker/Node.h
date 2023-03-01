@@ -7,6 +7,6 @@ class Node
 public:
 	Node();
 	bool mWordEnded;
-	std::vector<std::shared_ptr<Node>> mChildren;
+	std::vector<std::shared_ptr<Node>> mChildren; //komment
 };
 
